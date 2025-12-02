@@ -20,30 +20,112 @@
     </header>
 
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am a passionate frontend developer skilled in HTML, CSS, JavaScript, React, and building responsive websites.</p>
+        <div class="about-card">
+        <h2>Hi, I'm Basheera</h2>
+        <p>Bsc IT Graduate | MERN Stack Developer  | Aspiring Full-Stack Engineer</p>
+        <ul class="details">
+            <li>Bsc IT - E.M.G Yadava Women's College</li>
+            <li>Skills: HTML, CSS, JavaScript, PHP, MySQL, React, Node.js</li>
+            <li>Projects: Inventory Management, Responsive Websites, React Mini Apps</li>
+            <li>Goal: Get placed in a good IT comapnny</li>
+        </ul>
+        </div>
     </section>
 
     <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Inventory Management System</h3>
-            <p>A web app to track stock, products, and categories using PHP and MySQL.</p>
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+               <h3>Inventory Management System</h3>
+               <p>A web-based system built using HTML, CSS, JavaScript, PHP, and MySQL to manage stock, items, and billing..</p>
+               <div class="buttons">
+                   <a href="#" class="btn">View Code</a>
+                   <a href="#" class="btn">Live Demo</a>
+               </div>
+            </div>
+            <div class="project-card">
+               <h3>Responsive Websites</h3>
+               <p>Multiple mobile-friendly websites created using HTML, CSS, and Bootstrap with modern layouts.</p>
+               <div class="buttons">
+                <a href="#" class="btn">View Code</a>
+                <a href="#" class="btn">Live Demo</a>
+               </div>
+            </div>
+            <div class="project-card">
+               <h3>React Mini Apps</h3>
+               <p>Small React applications such as counters, forms and API fetch examples to build frontend logic.</p>
+               <div class="buttons">
+                <a href="#" class="btn">View Code</a>
+                <a href="#" class="btn">Live Demo</a>
+                </div>
+            </div>
         </div>
-        <div class="project">
-            <h3>Responsive Websites</h3>
-            <p>Built multiple responsive websites using HTML, CSS, and Bootstrap.</p>
-        </div>
-        <div class="project">
-            <h3>Todo App (React)</h3>
-            <p>A simple React-based todo app with local storage and filtering.</p>
+    </section>
+    <section id="skills" class="skills-section">
+      <h2>My Skills</h2>
+
+    <div class="skills-grid">
+          <div class="skill-card">
+            <span>💻</span>
+            <h3>HTML</h3>
+          </div>
+
+        <div class="skill-card">
+            <span>🎨</span>
+            <h3>CSS</h3>
         </div>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: basheerabegum276@gmail.com</p>
-            <p>Location: Madurai</p>
+        <div class="skill-card">
+            <span>⚡</span>
+            <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-card">
+            <span>🗄️</span>
+            <h3>PHP</h3>
+        </div>
+
+        <div class="skill-card">
+            <span>🛢️</span>
+            <h3>MySQL</h3>
+        </div>
+
+        <div class="skill-card">
+            <span>⚛️</span>
+            <h3>React</h3>
+        </div>
+
+        <div class="skill-card">
+            <span>🟩</span>
+            <h3>Node.js</h3>
+        </div>
+    </div>
+</section>
+
+        <section id="contact" style="padding: 60px 0; background: #f7f7f7;">
+            <div class="container">
+              <h2 class="section-title">Contact Me</h2>
+              <form class="contact-form">
+                  <div class="input-group">
+                    <input type="text" placeholder="Your Name" required>
+                  </div>
+                  <div class="input-group">
+                    <input type="email" placeholder="Your Email" required>
+                  </div>
+                  <div class="input-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                  </div>
+                  <button class="btn-contact">Send Message</button>
+              </form>
+            </div>
         </section>
-    </section>
-</body>
+
+        <footer style="background: #111; color: #fff; padding: 20px 0; text-align: center; ">
+            <p>© 2025 Basheera. All Rights Reserved.</p>
+        </footer>
+        <button id="topBtn">↑</button>
+        <script src="script.js"></script>
+
+    </body>
 </html>
+
